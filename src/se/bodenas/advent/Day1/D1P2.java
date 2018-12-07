@@ -1,4 +1,6 @@
-package se.bodenas.advent;
+package se.bodenas.advent.Day1;
+
+import se.bodenas.advent.Util;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
