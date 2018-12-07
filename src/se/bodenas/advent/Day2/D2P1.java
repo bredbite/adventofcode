@@ -1,6 +1,6 @@
 package se.bodenas.advent.Day2;
 
-import se.bodenas.advent.Util;
+import se.bodenas.advent.Input;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -11,7 +11,7 @@ public class D2P1 {
 
 	public static void main(String[] args) {
 		try {
-			List<String> ids = Util.getInput("input2.txt");
+            List<String> ids = Input.DAY2.getAllLines();
 			int threes = 0;
 			int twos = 0;
 			for (String id : ids) {

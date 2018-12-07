@@ -1,6 +1,6 @@
 package se.bodenas.advent.Day1;
 
-import se.bodenas.advent.Util;
+import se.bodenas.advent.Input;
 
 import java.io.IOException;
 import java.util.HashSet;
@@ -11,7 +11,7 @@ public class D1P2 {
 
 	public static void main(String[] args) {
 		try {
-			List<String> changeList = Util.getInput("input1.txt");
+            List<String> changeList = Input.DAY1.getAllLines();
 			System.out.println("Input size: "+changeList.size());
 			System.out.println("First duplicate frequency: "+findFirstDuplicateSum(changeList));
 		} catch (IOException e) {
