@@ -3,9 +3,6 @@ package se.bodenas.advent.Day2;
 import se.bodenas.advent.Util;
 
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -14,7 +11,7 @@ public class D2P1 {
 
 	public static void main(String[] args) {
 		try {
-			List<String> ids = Util.getInput("second_input.txt");
+			List<String> ids = Util.getInput("input2.txt");
 			int threes = 0;
 			int twos = 0;
 			for (String id : ids) {

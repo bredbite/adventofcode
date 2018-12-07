@@ -3,9 +3,6 @@ package se.bodenas.advent.Day1;
 import se.bodenas.advent.Util;
 
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -14,7 +11,7 @@ public class D1P2 {
 
 	public static void main(String[] args) {
 		try {
-			List<String> changeList = Util.getInput("first_input.txt");
+			List<String> changeList = Util.getInput("input1.txt");
 			System.out.println("Input size: "+changeList.size());
 			System.out.println("First duplicate frequency: "+findFirstDuplicateSum(changeList));
 		} catch (IOException e) {

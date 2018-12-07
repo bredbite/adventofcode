@@ -8,7 +8,7 @@ public class D1P1 {
 
 	public static void main(String[] args) {
 		try {
-			System.out.println(Util.getInput("first_input.txt").stream().mapToInt(Integer::valueOf).sum());
+			System.out.println(Util.getInput("input1.txt").stream().mapToInt(Integer::valueOf).sum());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

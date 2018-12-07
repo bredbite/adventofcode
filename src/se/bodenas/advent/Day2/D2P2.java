@@ -3,9 +3,6 @@ package se.bodenas.advent.Day2;
 import se.bodenas.advent.Util;
 
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.List;
 
 public class D2P2 {
@@ -13,7 +10,7 @@ public class D2P2 {
 	public static void main(String[] args) {
 		try {
 			String result = "";
-			List<String> ids = Util.getInput("second_input.txt");
+			List<String> ids = Util.getInput("input2.txt");
 			for (String id : ids) {
 				for (String id2 : ids) {
 					if (equalLettersExceptOne(id, id2)) {
