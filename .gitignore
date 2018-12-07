@@ -24,3 +24,5 @@ hs_err_pid*
 
 #IDE
 *.kotlin_module
+.idea/
+*.iml
