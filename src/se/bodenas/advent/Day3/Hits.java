@@ -1,12 +1,9 @@
 package se.bodenas.advent.Day3;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class Hits {
-    private Set<String> hits = new HashSet<>();
+    private List<String> hits = new ArrayList<>();
 
     public void addHit(String id) {
         hits.add(id);
@@ -16,7 +13,7 @@ public class Hits {
         return hits.size();
     }
 
-    public Set<String> getAll() {
-        return Collections.unmodifiableSet(hits);
+    public List<String> getAll() {
+        return Collections.unmodifiableList(hits);
     }
 }

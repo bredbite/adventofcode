@@ -30,6 +30,9 @@ public class HitMapCalculator {
 
     public HashMap<String, Hits> calculateOverlapScoreBoard(List<Claim> claims) {
         var scoreBoard = new HashMap<String, Hits>();
+        for(var claim : claims){
+            scoreBoard.put(claim.getId(), new Hits());
+        }
         var hitMap = new HashMap<Integer, Map<Integer, Hits>>();
         for (var claim : claims) {
             var rectangle = claim.getRectangle();
@@ -44,7 +47,7 @@ public class HitMapCalculator {
                     int y = yInit + j;
                     var hitMapHits = column.computeIfAbsent(y, k -> new Hits());
                     hitMapHits.addHit(claim.getId());
-                    hitMapHits.getAll().forEach(k -> scoreBoard.computeIfAbsent(k, l -> new Hits()).addHit(k));
+                    hitMapHits.getAll().forEach(claimId -> scoreBoard.get(claimId).addHit(claimId));
                 }
             }
         }
