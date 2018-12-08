@@ -1,31 +1,31 @@
 package se.bodenas.advent.Day3;
 
 public class Rectangle {
-    private final String x;
-    private final String y;
-    private final String width;
-    private final String length;
+    private final int x;
+    private final int y;
+    private final int width;
+    private final int height;
 
-    public Rectangle(String x, String y, String width, String length) {
-        this.x = x;
-        this.y = y;
-        this.width = width;
-        this.length = length;
+    public Rectangle(String x, String y, String width, String height) {
+        this.x = Integer.valueOf(x);
+        this.y = Integer.valueOf(y);
+        this.width = Integer.valueOf(width);
+        this.height = Integer.valueOf(height);
     }
 
-    public String getX() {
+    public int getX() {
         return x;
     }
 
-    public String getY() {
+    public int getY() {
         return y;
     }
 
-    public String getWidth() {
+    public int getWidth() {
         return width;
     }
 
-    public String getLength() {
-        return length;
+    public int getHeight() {
+        return height;
     }
 }
