@@ -2,10 +2,10 @@ package se.nodenas.advent.Day3;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import se.bodenas.advent.Day3.Claim;
-import se.bodenas.advent.Day3.ClaimParser;
-import se.bodenas.advent.Day3.Rectangle;
-import se.bodenas.advent.Input;
+import se.bodenas.advent2018.Day3.Claim;
+import se.bodenas.advent2018.Day3.ClaimParser;
+import se.bodenas.advent2018.Day3.Rectangle;
+import se.bodenas.advent2018.Input;
 
 import java.io.IOException;
 import java.util.List;

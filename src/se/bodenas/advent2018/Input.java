@@ -1,4 +1,4 @@
-package se.bodenas.advent;
+package se.bodenas.advent2018;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -20,6 +20,6 @@ public enum Input {
     }
 
     public List<String> getAllLines() throws IOException {
-        return Files.readAllLines(Paths.get("res", filename), StandardCharsets.UTF_8);
+        return Files.readAllLines(Paths.get("res/2018", filename), StandardCharsets.UTF_8);
     }
 }

@@ -1,10 +1,10 @@
 package se.nodenas.advent.Day3;
 
 import org.junit.jupiter.api.Test;
-import se.bodenas.advent.Day3.ClaimParser;
-import se.bodenas.advent.Day3.HitAnalyzer;
-import se.bodenas.advent.Day3.HitMapCalculator;
-import se.bodenas.advent.Input;
+import se.bodenas.advent2018.Day3.ClaimParser;
+import se.bodenas.advent2018.Day3.HitAnalyzer;
+import se.bodenas.advent2018.Day3.HitMapCalculator;
+import se.bodenas.advent2018.Input;
 
 import java.io.IOException;
 

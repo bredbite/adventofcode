@@ -1,4 +1,4 @@
-package se.bodenas.advent.Day3;
+package se.bodenas.advent2018.Day3;
 
 public class Rectangle {
     private final int x;

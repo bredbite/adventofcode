@@ -1,6 +1,6 @@
-package se.bodenas.advent.Day2;
+package se.bodenas.advent2018.Day2;
 
-import se.bodenas.advent.Input;
+import se.bodenas.advent2018.Input;
 
 import java.io.IOException;
 import java.util.HashMap;

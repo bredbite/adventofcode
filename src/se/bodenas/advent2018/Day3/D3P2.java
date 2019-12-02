@@ -1,7 +1,7 @@
-package se.bodenas.advent.Day3;
+package se.bodenas.advent2018.Day3;
 
 import org.junit.jupiter.api.Test;
-import se.bodenas.advent.Input;
+import se.bodenas.advent2018.Input;
 
 import java.io.IOException;
 import java.util.List;
